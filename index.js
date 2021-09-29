@@ -6,3 +6,12 @@ function oneHundredtoFive () {
 }
 
 //oneHundredtoFive()
+
+function absoluteValue () {
+ let x = 35 ;
+ //this math.abs function returns the absolute value of a number
+ x = Math.abs(x); {
+  console.log(x)
+ }
+}
+absoluteValue()
