@@ -14,4 +14,14 @@ function absoluteValue () {
   console.log(x)
  }
 }
-absoluteValue()
+//absoluteValue()
+
+function multipleOfFourOrSeven () {
+    for(let i = 4; i <= 100; i++){
+        if (i % 4 === 0 && i % 2 === 0 || i % 7 === 0 && i % 2 === 0){
+            console.log(i)
+         }
+    }
+}
+
+multipleOfFourOrSeven()
